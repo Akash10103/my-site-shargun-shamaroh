@@ -20,28 +20,28 @@ import Tester from './Tester'
 function App() {
   return (
     <BrowserRouter>
-    {/* <Header/> */}
+    <Header/>
         <Routes>
          
-             {/* <Route  path='/' element={<Home/>}/>
+             <Route  path='/' element={<Home/>}/>
             <Route path='/' element={<BirthdayOrWedding/>}/>  
             <Route path='/' element={<Groom_Bride/>}/> 
             <Route path='/' element={<EventDate/>}/>
             <Route path='/' element={<Personal_details/> }/>  
-            <Route path='/' element={<Event_Place/> }/>  */}
-            {/* <Route path='/' element={<Extra_Practice/> }/>  */}
-            <Route path='/' element={<Tester/> }/> 
-            {/* <Route path='/' element={<Confirm_Details/> }/>  
-            <Route path='/dasboard-page' element={<Mydashboard/> }/>   */}
+            <Route path='/' element={<Event_Place/> }/> 
+            <Route path='/' element={<Extra_Practice/> }/> 
+            {/* <Route path='/' element={<Tester/> }/>  */}
+            <Route path='/' element={<Confirm_Details/> }/>  
+            <Route path='/dasboard-page' element={<Mydashboard/> }/>  
              {/* <Route exact path="/page-one" component={Step3} /> */}
-             {/* <Route path='/profile' element={<MyProfile />}/>
+             <Route path='/profile' element={<MyProfile />}/>
              <Route path='/upcoming-events' element={<UpcomingEvent/>}/>
              <Route path='/add-events' element={<AddEvents/>}/>
              <Route path='/share' element={<Share/>}/>
-             <Route path='/accounts' element={<Share/>}/> */}
+             <Route path='/accounts' element={<Share/>}/>
      
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
     </BrowserRouter>
   )
 }
